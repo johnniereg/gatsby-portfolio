@@ -33,8 +33,13 @@
   .header__social-links {
     @media screen and (max-width: 768px) {
       margin-top: auto;
+      background-color: #0a1a1a50;
+    }
 
-      .social-links__wrapper {
+    .social-links__wrapper {
+      justify-content: space-between;
+
+      @media screen and (max-width: 768px) {
         justify-content: center;
       }
     }
@@ -46,9 +51,17 @@
         color: #0a1a10;
       }
 
-      &:first-of-type {
-        margin-left: 0;
+      @media screen and (max-width: 768px) {
+        color: #f2f2f2;
       }
+
+      @media screen and (min-width: 769px) {
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+
+
     }
   }
 

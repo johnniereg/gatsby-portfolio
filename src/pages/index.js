@@ -26,42 +26,42 @@ export default () => (
             <FontAwesomeIcon
               icon={faGithub}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
           <a href="https://www.linkedin.com/in/johnnie-regalado/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faLinkedin}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
           <a href="https://twitter.com/johnniereg" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faTwitter}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
           <a href="https://www.instagram.com/johnniereg/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faInstagram}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
           <a href="https://open.spotify.com/user/johnniereg" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faSpotify}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
           <a href="mailto:johnniereg@gmail.com?subject=Hey Johnnie! What's up? I'm writing you from your personal site">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="social-links__icon"
-              size="24px"
+              size="lg"
             />
           </a>
         </div>
