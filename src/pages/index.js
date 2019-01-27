@@ -1,6 +1,6 @@
 import React from "react"
 
-import profilePhoto from "../../static/johnnie-regalado-photo.jpg";
+import profilePhoto from "../../static/johnnie-regalado-photo-removebg.png";
 
 export default () => (
   <div className="layout">
@@ -15,7 +15,7 @@ export default () => (
         <img className="social-links__icon" src="https://source.unsplash.com/random/24x24" alt="A social media icon for LinkedIn"/>
       </div>
     </header>
-    <main className="site-main">
+    <main className="main">
       <section className="about">
         <h1 className="about_title">About</h1>
         <h2 className="about_subtitle">Make. Create. Produce.</h2>
