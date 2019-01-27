@@ -1,7 +1,8 @@
 .layout {
   display: flex;
   max-height: 100vh;
-  max-width: 100vw;
+  max-width: rem(1200px);
+  margin: auto;
 
   @media screen and (max-width: 768px) {
     flex-wrap: wrap;
