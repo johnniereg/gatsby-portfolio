@@ -2,10 +2,12 @@
   display: flex;
   max-height: 100vh;
   max-width: rem(1200px);
+  padding: 0 2rem;
   margin: auto;
 
   @media screen and (max-width: 768px) {
     flex-wrap: wrap;
+    padding: 0;
     overflow: scroll;
   }
 }
