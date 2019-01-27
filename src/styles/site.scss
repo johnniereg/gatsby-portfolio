@@ -1,0 +1,18 @@
+// This is the main SCSS file
+// Do all the file imports in here
+// This file gets imported into `gatsby-browser.js`
+
+// External Libraries & Helpers
+@import "~sass-rem";
+
+// Internal Libraries & Helpers
+@import "lib/global";
+
+// Components
+@import "components/layout";
+@import "components/header";
+@import "components/main";
+@import "components/about";
+@import "components/work";
+@import "components/contact";
+@import "components/social-links";

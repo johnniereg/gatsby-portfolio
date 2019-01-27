@@ -1,0 +1,32 @@
+{
+  "name": "johnnie-regalado-static-portfolio",
+  "private": true,
+  "description": "Johnnie Regalado\n's static portfolio site. Not the first, not the last. Lovingly crafted from the simplified bare-bones starter for Gatsby.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.76",
+    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-typography": "^2.2.5",
+    "node-sass": "^4.11.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-typography": "^0.16.18",
+    "sass-rem": "^2.0.1",
+    "typography": "^0.16.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
