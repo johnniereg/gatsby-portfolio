@@ -1,4 +1,7 @@
 .header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   position: relative;
   height: 100vh;
   padding: 2rem 1rem 0;
@@ -12,11 +15,41 @@
   }
 
   .header__title {
+    margin-bottom: 0;
     font-size: rem(36px);
+    font-weight: 400;
   }
 
   .header__subtitle {
     font-size: rem(24px);
+  }
+
+  .header__slogan {
+    margin-bottom: rem(4px);
+    font-weight: 600;
+    letter-spacing: rem(6px);
+  }
+
+  .header__social-links {
+    @media screen and (max-width: 768px) {
+      margin-top: auto;
+
+      .social-links__wrapper {
+        justify-content: center;
+      }
+    }
+
+    .social-links__icon {
+      color: #0a1a1a50;
+
+      &:hover {
+        color: #0a1a10;
+      }
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
   }
 
   .header__photo {
