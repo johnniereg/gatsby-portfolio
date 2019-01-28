@@ -9,5 +9,6 @@
     flex-wrap: wrap;
     padding: 0;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
