@@ -21,7 +21,11 @@ export default () => (
         alt="A photo of Johnnie Regalado, who made this site, and is a pretty cool dude."
       />
       <div className="header__social-links social-links">
-        <div className="social-links__wrapper" target="_blank" rel="noopener noreferrer">
+        <div
+          className="social-links__wrapper"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <a href="https://github.com/johnniereg">
             <FontAwesomeIcon
               icon={faGithub}
@@ -29,28 +33,44 @@ export default () => (
               size="lg"
             />
           </a>
-          <a href="https://www.linkedin.com/in/johnnie-regalado/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/johnnie-regalado/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faLinkedin}
               className="social-links__icon"
               size="lg"
             />
           </a>
-          <a href="https://twitter.com/johnniereg" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/johnniereg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faTwitter}
               className="social-links__icon"
               size="lg"
             />
           </a>
-          <a href="https://www.instagram.com/johnniereg/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/johnniereg/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faInstagram}
               className="social-links__icon"
               size="lg"
             />
           </a>
-          <a href="https://open.spotify.com/user/johnniereg" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://open.spotify.com/user/johnniereg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faSpotify}
               className="social-links__icon"
@@ -85,7 +105,8 @@ export default () => (
           control.
         </p>
         <p className="lander__text">
-          By day, I'm slinging code with <a href="">Pixel Union</a>'s Agency. We
+          By day, I'm slinging code with{" "}
+          <a href="https://www.pixelunion.net/" target="_blank" rel="noopener noreferrer">Pixel Union</a>'s Agency. We
           build custom eCommerce solutions with Shopify (and sometimes WordPress
           or React) that help merchants sell more.
         </p>
